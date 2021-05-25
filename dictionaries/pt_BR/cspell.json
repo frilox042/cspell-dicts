@@ -1,0 +1,36 @@
+{
+    "version": "0.2",
+    "files": [
+        "**/*.{md,txt}"
+    ],
+    "language": "en,pt",
+    "import": [
+        "./cspell-ext.json"
+    ],
+    "ignorePaths": [
+        "sample.txt"
+    ],
+    "ignoreWords": [],
+    "words": [
+        "Bittar",
+        "Boni",
+        "BROFFICE",
+        "Celesc",
+        "colaborative",
+        "con-tri-buin-te",
+        "DivSilab",
+        "explendor",
+        "Fontenelle",
+        "Francysco",
+        "Hillebrandt",
+        "jurisdicização",
+        "LGPL",
+        "Myspell",
+        "ORTOGRAPH",
+        "psic",
+        "Seff",
+        "Senni",
+        "Strottmann",
+        "Tsujiguchi"
+    ]
+}

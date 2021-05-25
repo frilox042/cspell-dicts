@@ -4,12 +4,12 @@
     "files": [
         "*.{md,txt,yaml,yml}",
         ".github/**/*.{md,txt,yaml,yml}",
-        "dictionaries/[a-e]*/**/*.{md,txt,yaml,yml,js}",
-        "dictionaries/latex/**/*.{md,txt,yaml,yml,js,tex}",
+        "dictionaries/**/*.{md,txt,yaml,yml,js,tex}",
         "LICENSE"
     ],
     "words": [
         "ALLCAPS",
+        "LGPL",
         "appname",
         "autobuild",
         "codeql",
@@ -20,19 +20,26 @@
         "django's",
         "issuehunt",
         "liberapay",
+        "mdash",
         "otechie",
         "patreon",
         "streetsidesoftware",
-        "tidelift"
+        "tidelift",
+        "z"
     ],
     "flagWords": [],
     "maxNumberOfProblems": 1000,
     "ignorePaths": [
         ".vscode/**",
         "**/.git/**",
-        "**/*.aff",
-        "**/*.dic",
-        "**/node_modules/**"
+        "*.aff",
+        "*.dic",
+        "*.log",
+        "*.gz",
+        "*.lock",
+        "generator-cspell-dicts/generators/app/templates/**",
+        "dictionaries/*/src/**",
+        "node_modules"
     ],
     "import": [],
     "overrides": [

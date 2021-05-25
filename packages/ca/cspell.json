@@ -1,0 +1,17 @@
+{
+    "version": "0.2",
+    "files": [
+        "**/*.{md,txt}"
+    ],
+    "dictionaries": [
+        "ca"
+    ],
+    "import": [
+        "./cspell-ext.json"
+    ],
+    "words": [
+        "Farrando",
+        "Mallach",
+        "Ortolà"
+    ]
+}

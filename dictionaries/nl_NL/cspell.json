@@ -1,0 +1,13 @@
+{
+    "files": [
+        "**/*.{md,txt}"
+    ],
+    "language": "en,nl",
+    "import": [
+        "./cspell-ext.json"
+    ],
+    "ignorePaths": [
+        "sample.txt"
+    ],
+    "ignoreWords": []
+}

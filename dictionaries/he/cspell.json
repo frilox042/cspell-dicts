@@ -1,3 +1,18 @@
 {
-    "import": ["./cspell-ext.json"]
+    "version": "0.2",
+    "files": [
+        "**/*.{md,txt}"
+    ],
+    "language": "en,he",
+    "import": [
+        "./cspell-ext.json"
+    ],
+    "ignorePaths": [
+        "sample.txt"
+    ],
+    "ignoreWords": [],
+    "words": [
+        "Noam",
+        "Shabat"
+    ]
 }

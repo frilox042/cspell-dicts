@@ -1,0 +1,14 @@
+{
+    "files": [
+        "**/*.{md,txt}"
+    ],
+    "dictionaries": [
+        "node"
+    ],
+    "import": [
+        "./cspell-ext.json"
+    ],
+    "ignoreWords": [
+        "yyyymmdd"
+    ]
+}
